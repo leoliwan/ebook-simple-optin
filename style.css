@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+
+
+/* Background Color*/
+.bg-green {
+    background-color: #1AC662; 
+}
+.bg-dark-blue {
+    background-color: #042445;
+}
+.text-green {
+    color: #1AC662;
+}
+#navbarNav ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+#logo a {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 34px;
+}
+#navbarNav ul li a:hover {
+    color: #042445;
+}
+#hero {
+    position: relative;
+    min-height: 500px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /* background: url("img/hero-background.jpeg"); */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .blue-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 500px;
+    background-color: rgba(132, 94, 194, 0.76)
+} */
+#hero h1 {
+    font-family: 'Berkshire Swash', cursive;
+}
+#hero i {
+    background-color: #FFC107;
+    padding: .5em;
+}
+
+#hero img {
+    width: 50%;
+    height: 70%;
+}
+.btn-download {
+    background-color: #FFC107;
+    padding: .5em 3em;
+    border-radius: 5px;
+    border-top: 3px solid rgb(158, 119, 0);
+    border-right: 3px solid rgb(158, 119, 0);
+    border-left: 3px solid rgb(158, 119, 0);
+    border-bottom: 5px solid rgb(158, 119, 0);
+}
+.btn-download:hover {
+    cursor: pointer;
+    background-color: rgb(255, 199, 30);
+}
+#downloadBtn i {
+    font-size: 34px;
+    padding: 0;
+    background: transparent;
+}
+#downloadBtn .fas {
+   animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-13px);
+    }
+}
+
+/* Media Querries */
+@media screen and (max-width: 500px) {
+    #logo a {
+        font-size: 20px;
+    }
+    #hero h1 {
+        font-size: 34px;
+        font-family: 300;
+    }
+    #hero h3 {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    #hero h2 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 400;
+    }
+    .showcase-heading {
+        margin-top: 0!important;
+    }
+    .btn-download {
+        margin: 0 1em!important;
+        padding: .5em 1em;
+    }
+    .btn-download h4{
+        font-size: 20px;
+    }
+    .btn-download h5 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    #downloadBtn i {
+        font-size: 24px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .btn-download h4{
+        font-size: 20px;
+    }
+    .btn-download h5 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .btn-download {
+        padding: .5em 1em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 994px) {
+   #hero h3 {
+       font-size: 24px;
+       font-weight: 400;
+   }
+   #hero h2 {
+       text-align: center;
+       font-size: 28px;
+   }
+    #hero i {
+       padding: .3em;
+   }
+    #hero p {
+       font-size: 16px;
+   }
+   .showcase-image {
+       margin-left: 0!important;
+       margin-right: 0!important;
+   }
+   .showcase-image img {
+       width: 70%!important;
+   }
+   .btn-download h4{
+    font-size: 20px;
+}
+    .btn-download h5 {
+    font-size: 14px;
+    font-weight: 300;
+    }
+
+    .btn-download {
+        padding: .5em 1em;
+    }
+}
